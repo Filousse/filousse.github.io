@@ -7,7 +7,22 @@ body {
 h1 {
     text-align: center;
     font-size:4em;
-    padding-top: 30px;
+}
+
+#resultat{
+  background-color: white;
+    display: block;
+    border: 1px solid #0066ff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #0066ff;
 }
 
 div {
