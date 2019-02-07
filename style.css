@@ -1,7 +1,6 @@
-
 body {
   margin: 0;
-  background-color: #E91E63;
+  background-color: 878986;
 }
 
 h1 {
@@ -9,7 +8,7 @@ h1 {
     font-size:4em;
 }
 
-#resultat{
+#start{
   background-color: white;
     display: block;
     border: 1px solid #0066ff;
