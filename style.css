@@ -44,3 +44,11 @@ span {
   height: 120px;
   width: 120px;
 }
+
+#resultatglobal {
+  border: 3px solid black;
+  height: 30px;
+  width: 400px;
+  margin-left: 35%;
+
+}
