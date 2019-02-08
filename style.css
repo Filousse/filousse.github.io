@@ -1,19 +1,20 @@
 body {
   margin: 0;
-  background-color: 878986;
 }
 
 section{
   width: 800px;
-  height:500px;
+  height:380px;
   border: 3px solid #2196F3;
   margin-left: 20%;
 
 }
 
 h1 {
-  text-align: center;
-  font-size:4em;
+      text-align: center;
+      font-size: 4em;
+      margin-bottom: 20px;
+      margin-top:10px;
 }
 
 #start{
@@ -33,25 +34,33 @@ h1 {
 }
 
 div {
-  margin-top:80px;
-  margin-left:14%;
   padding: 10px;
   border: 3px solid #2196F3;
   background-color: white;
   height: 130px;
-  position: fixed;
-  left: 20;
-  right: 20;
-  z-index: 1;
-  position: center
-
+  width: 390px;
+  margin: auto;
 }
-span {
+divs {
   display: inline-block;
+  margin:auto;
   border: 3px solid black;
   height: 120px;
   width: 120px;
 }
+
+li {
+  border: 3px solid black;
+  height: 60px;
+  width: 115px;
+  display: block;
+  margin:0px;
+}
+ul{
+      padding-inline-start: 0px;
+      margin:0px;
+}
+
 
 #resultatglobal {
   border: 3px solid black;

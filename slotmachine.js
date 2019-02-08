@@ -21,6 +21,7 @@ $(function(){
       'color' : 'red'
     });
   })
+
   var nb1 = pioche(liste1);
   var nb2 = pioche(liste2);
   var nb3 = pioche(liste3);
