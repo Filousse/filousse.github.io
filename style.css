@@ -34,33 +34,38 @@ h1 {
 }
 
 div {
-  padding: 10px;
   border: 3px solid #2196F3;
-  background-color: white;
   height: 130px;
   width: 390px;
   margin: auto;
 }
-divs {
+.cels {
+  margin-top: 12px;
+  margin-left: 15px;
   display: inline-block;
-  margin:auto;
+  padding: auto;
   border: 3px solid black;
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+
+ul{
+  padding-inline-start: 0px;
+  height: 100px;
+  width: 100px;
+  margin : auto;
+  padding: auto;
 }
 
 li {
-  border: 3px solid black;
-  height: 60px;
-  width: 115px;
+  border: 1px solid black;
+  height: 98px;
+  width: 98px;
   display: block;
-  margin:0px;
+  margin: auto;
+  padding: auto;
 }
-ul{
-      padding-inline-start: 0px;
-      margin:0px;
-}
-
 
 #resultatglobal {
   border: 3px solid black;
@@ -68,5 +73,4 @@ ul{
   width: 460px;
   margin-left: 20%;
   text-align: center;
-
 }

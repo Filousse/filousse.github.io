@@ -1,4 +1,4 @@
-function nbaleatoire(x){
+function nbaleatoire(x) {
   var a = Math.random()*x;
   var b = Math.round(a);
   return b;
@@ -20,7 +20,7 @@ $(function(){
     $(this).css({
       'color' : 'red'
     });
-  })
+})
 
   var nb1 = pioche(liste1);
   var nb2 = pioche(liste2);
@@ -28,6 +28,6 @@ $(function(){
   var elmtrg = $('#resultatglobal');
   var elmt = $('#start');
   elmt.click(function() {
-    $('#resultatglobal').val('Vas dans un(e) ' + nb1 + ' habillé d un(e) ' + nb2 + ' et fais un(e) ' + nb3);
+    $(elmtrg).val('Vas dans un(e) ' + nb1 + ' habillé d un(e) ' + nb2 + ' et fais un(e) ' + nb3);
     });
 });
