@@ -49,7 +49,7 @@ $(function(){
 
       for(var i=0; i<uls.length; i++) {
         var ul = uls[i];
-        var off = nbaleatoire(4) * 100;
+        var off = nbaleatoire(9) * 100;
         var margin = '-' + off + 'px';
 
         ul.animate({
