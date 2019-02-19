@@ -3,9 +3,10 @@ body {
 }
 
 section{
+  background-color: #8B668B;
   width: 800px;
   height:380px;
-  border: 3px solid #2196F3;
+  border: 10px solid black;
   margin-left: 20%;
 
 }
@@ -18,9 +19,9 @@ h1 {
 }
 
 #start{
-  background-color: white;
+  background-color: gold;
   display: block;
-  border: 1px solid #0066ff;
+  border: 3px solid black;
   margin-left: auto;
   margin-right: auto;
   width: 200px;
@@ -30,14 +31,19 @@ h1 {
   font-size: 1em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #0066ff;
+  color: black;
+}
+
+#start:hover{
+  color: red;
 }
 
 div {
-  border: 3px solid #2196F3;
+  border: 3px solid black;
   height: 130px;
   width: 390px;
   margin: auto;
+  background-color: red;
 }
 .cels {
   margin-top: 12px;
@@ -67,10 +73,60 @@ li {
   padding: auto;
 }
 
+li:first-child {
+  background-image: url("imgslot/seven.jpg");
+  background-size: cover;
+}
+
+li:nth-child(2) {
+  background-image: url("imgslot/banana.jpg");
+  background-size: cover;
+}
+
+li:nth-child(3) {
+  background-image: url("imgslot/dollar.jpg");
+  background-size: contain;
+}
+
+li:nth-child(4) {
+  background-image: url("imgslot/cherry.jpg");
+  background-size: cover;
+}
+
+li:nth-child(5) {
+  background-image: url("imgslot/bar.jpg");
+  background-size: cover;
+}
+
+li:nth-child(6) {
+  background-image: url("imgslot/watermelon.jpg");
+  background-size: cover;
+}
+
+li:nth-child(7) {
+  background-image: url("imgslot/grapes.jpg");
+  background-size: cover;
+}
+
+li:nth-child(8) {
+  background-image: url("imgslot/stranberry.jpg");
+  background-size: cover;
+}
+
+li:nth-child(9) {
+  background-image: url("imgslot/lemon.png");
+  background-size: cover;
+}
+
+li:nth-child(10) {
+  background-image: url("imgslot/bell.jpg");
+  background-size: cover;
+}
+
 #resultatglobal {
   border: 3px solid black;
   height: 30px;
   width: 460px;
   margin-left: 20%;
-  text-align: center;
+  text-align: center
 }
